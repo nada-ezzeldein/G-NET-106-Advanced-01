@@ -1,54 +1,72 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
 namespace C__Advanced_Assignment_1
-{ 
-           #region Question 2
-                   public class Container<T>
-        {
-            private List<T> items = new List<T>();
+{
+    #region Question 2
+    //           public class Container<T>
+    //{
+    //    private List<T> items = new List<T>();
 
-            public void Add(T item)
-            {
-                items.Add(item);
-            }
+    //    public void Add(T item)
+    //    {
+    //        items.Add(item);
+    //    }
 
-            public T Get(int index)
-            {
-                return items[index];
-            }
-        }
+    //    public T Get(int index)
+    //    {
+    //        return items[index];
+    //    }
+    //}
     #endregion
 
-           #region Question 3
+    #region Question 3
     // Multiple type parameters allow a generic class or method to work with more than one data type.
-    public class Pair <TKey, TValue>
-    {
-        public TKey Key { get; set; }
-        public TValue Value { get; set; }
-        public Pair(TKey key, TValue value)
-        {
-            Key = key;
-            Value = value;
-        }
-        public void Display()
-        {
-            Console.WriteLine($"Key: {Key} , Value: {Value}");
-        }
-    }
+    //public class Pair <TKey, TValue>
+    //{
+    //    public TKey Key { get; set; }
+    //    public TValue Value { get; set; }
+    //    public Pair(TKey key, TValue value)
+    //    {
+    //        Key = key;
+    //        Value = value;
+    //    }
+    //    public void Display()
+    //    {
+    //        Console.WriteLine($"Key: {Key} , Value: {Value}");
+    //    }
+    //}
     #endregion
 
-           #region Question 4
+    #region Question 4
     // What is a generic method? Write Swap<T> method
     // a method that can operate on different data types while providing type safety.
-    public static class GenericMethods
-    {
-        public static void Swap<T>(ref T a, ref T b)
-        {
-            T temp = a;
-            a = b;
-            b = temp;
-        }
-    }
+    //public static class GenericMethods
+    //{
+    //    public static void Swap<T>(ref T a, ref T b)
+    //    {
+    //        T temp = a;
+    //        a = b;
+    //        b = temp;
+    //    }
+    //}
+    #endregion
+
+    #region Question 5
+    //public class GenericMethod
+    //{        public static T FindMax<T>(T[] array) where T : IComparable<T>
+    //    {
+
+    //        T max = array[0];
+    //        for (int i = 1; i < array.Length; i++)
+    //        {
+    //            if (array[i].CompareTo(max) > 0)
+    //            {
+    //                max = array[i];
+    //            }
+    //        }
+    //        return max;
+    //    }
+    //}
     #endregion
     internal class Program
     {
@@ -60,6 +78,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
 
            
