@@ -17,7 +17,26 @@ namespace C__Advanced_Assignment_1
                 return items[index];
             }
         }
-            #endregion
+    #endregion
+
+    #region Question 3
+    // Multiple type parameters allow a generic class or method to work with more than one data type.
+    public class Pair <TKey, TValue>
+    {
+        public TKey Key { get; set; }
+        public TValue Value { get; set; }
+        public Pair(TKey key, TValue value)
+        {
+            Key = key;
+            Value = value;
+        }
+        public void Display()
+        {
+            Console.WriteLine($"Key: {Key} , Value: {Value}");
+        }
+    }
+    #endregion
+
     internal class Program
     {
         static void Main(string[] args)
