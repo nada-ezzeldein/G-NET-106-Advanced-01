@@ -19,7 +19,7 @@ namespace C__Advanced_Assignment_1
         }
     #endregion
 
-    #region Question 3
+           #region Question 3
     // Multiple type parameters allow a generic class or method to work with more than one data type.
     public class Pair <TKey, TValue>
     {
@@ -37,6 +37,19 @@ namespace C__Advanced_Assignment_1
     }
     #endregion
 
+           #region Question 4
+    // What is a generic method? Write Swap<T> method
+    // a method that can operate on different data types while providing type safety.
+    public static class GenericMethods
+    {
+        public static void Swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
+        }
+    }
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -47,6 +60,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
 
            
 
