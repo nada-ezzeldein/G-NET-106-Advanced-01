@@ -172,6 +172,19 @@ namespace C__Advanced_Assignment_1
     //    }
     //}
     #endregion
+
+    #region Question 13
+    // It is used to obtain the default value of a type parameter.
+
+    //public class DefaultExample<T>
+    //{
+    //    public T GetDefaultValue()
+    //    {
+    //        return default(T);
+    //    }
+    //}
+
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -182,6 +195,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
