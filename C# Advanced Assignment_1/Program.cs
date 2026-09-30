@@ -208,6 +208,7 @@ namespace C__Advanced_Assignment_1
 
     #region Question 15
     // It allows a method to return a more derived type than that specified by the generic parameter.
+    // Out keyword is used to specify covariance in generic interfaces and delegates.
 
     //public interface ICovariant<out T>
     //{
@@ -218,6 +219,25 @@ namespace C__Advanced_Assignment_1
     //    public string GetItem()
     //    {
     //        return "Covariance!";
+    //    }
+    //}
+
+    #endregion
+
+    #region Question 16
+    // What is contravariance? Explain the 'in' keyword.
+    // Contravariance allows a method to accept parameters of a less derived type than that specified by the generic parameter.
+    // in keyword is used to specify contravariance in generic interfaces and delegates.
+
+    //public interface IContravariant<in T>
+    //{
+    //    void ProcessItem(T item);
+    //}
+    //public class ContravariantExample : IContravariant<object>
+    //{
+    //    public void ProcessItem(object item)
+    //    {
+    // Process the item
     //    }
     //}
     
@@ -232,6 +252,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
