@@ -225,7 +225,6 @@ namespace C__Advanced_Assignment_1
     #endregion
 
     #region Question 16
-    // What is contravariance? Explain the 'in' keyword.
     // Contravariance allows a method to accept parameters of a less derived type than that specified by the generic parameter.
     // in keyword is used to specify contravariance in generic interfaces and delegates.
 
@@ -240,7 +239,43 @@ namespace C__Advanced_Assignment_1
     // Process the item
     //    }
     //}
-    
+    #endregion 
+
+    #region Question 17
+    // Covariance allows a method to return a more derived type.
+    // contravariance allows a method to accept parameters of a less derived type than that specified.
+
+    // public class Animal
+    // {
+    //     public virtual void Speak()
+    //     {
+    //         Console.WriteLine("Animal speaks");
+    //     }
+    // }
+    // public class Dog : Animal
+    // {
+    //     public override void Speak()
+    //     {
+    //         Console.WriteLine("Dog barks");
+    //     }
+    // }
+    // public class Cat : Animal
+    // {
+    //     public override void Speak()
+    //     {
+    // Console.WriteLine("Cat meows");
+    //     }
+    // }
+    // Covariance example
+    //======================================================
+    // public class CovariantExample : ICovariant<Dog>
+    // {
+    //     public Dog GetItem()
+    //     {
+    // return new Dog();
+    //     }
+    // }
+    // Contravariance example
     #endregion
     internal class Program
     {
@@ -252,6 +287,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
