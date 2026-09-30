@@ -239,7 +239,7 @@ namespace C__Advanced_Assignment_1
     // Process the item
     //    }
     //}
-    #endregion 
+    #endregion
 
     #region Question 17
     // Covariance allows a method to return a more derived type.
@@ -277,6 +277,11 @@ namespace C__Advanced_Assignment_1
     // }
     // Contravariance example
     #endregion
+
+    #region Question 18
+    // Static members are shared across all instances of a generic type, regardless of the type parameter.
+    // Each closed constructed type has its own static members.
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -287,6 +292,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
