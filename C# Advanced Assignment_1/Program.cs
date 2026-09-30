@@ -68,6 +68,18 @@ namespace C__Advanced_Assignment_1
     //    }
     //}
     #endregion
+
+    #region Question 6
+    // interface that can work with different data types while providing type safety.
+    //public interface IRepository<T>
+    //{
+    //    void Add(T entity);
+    //    T GetById(int id);
+    //    IEnumerable<T> GetAll();
+    //    void Remove(T entity);
+    //}
+    #endregion
+
     internal class Program
     {
         static void Main(string[] args)
@@ -78,6 +90,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
 
