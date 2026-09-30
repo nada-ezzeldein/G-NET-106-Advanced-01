@@ -282,6 +282,22 @@ namespace C__Advanced_Assignment_1
     // Static members are shared across all instances of a generic type, regardless of the type parameter.
     // Each closed constructed type has its own static members.
     #endregion
+
+    #region Question 19
+    // public class GenericParent<T>
+    // {
+    //     public T Value { get; set; }
+    // }
+    // public class DerivedClass : GenericParent<int>
+    // {
+    //     public void DisplayValue()
+    //     {
+    //         Console.WriteLine($"Value: {Value}");
+    //     }
+    // }
+    #endregion
+
+
     internal class Program
     {
         static void Main(string[] args)
@@ -292,6 +308,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
