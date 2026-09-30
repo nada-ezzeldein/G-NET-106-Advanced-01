@@ -126,7 +126,6 @@ namespace C__Advanced_Assignment_1
     #endregion
 
     #region Question 10
-    //What is the interface constraint? Write an example
     // It restricts a generic type parameter to types that implement a specific interface.
 
     //public interface IMyInterface
@@ -143,7 +142,25 @@ namespace C__Advanced_Assignment_1
     //}
     #endregion
 
+    #region Question 11
+    // What is the base class constraint? Write an example
+    // It restricts a generic type parameter to types that inherit from a specific base class.
 
+    //public class BaseClass
+    //{
+    //    public void BaseMethod()
+    //    {
+    //        Console.WriteLine("Base method called.");
+    //    }
+    //}
+    //public class Processor<T> where T : BaseClass
+    //{
+    //    public void Process(T item)
+    //    {
+    //        item.BaseMethod();
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -154,6 +171,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
