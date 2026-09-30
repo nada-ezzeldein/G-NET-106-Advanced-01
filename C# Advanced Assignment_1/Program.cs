@@ -112,6 +112,18 @@ namespace C__Advanced_Assignment_1
     //    }
     //}
     #endregion
+
+    #region Question 9
+    // It requires that the type parameter has a parameterless constructor.
+
+    //public class ConstructorConstraint<T> where T : new()
+    //{
+    //    public T CreateInstance()
+    //    {
+    //        return new T();
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -122,6 +134,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
