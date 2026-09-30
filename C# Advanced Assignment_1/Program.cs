@@ -143,7 +143,6 @@ namespace C__Advanced_Assignment_1
     #endregion
 
     #region Question 11
-    // What is the base class constraint? Write an example
     // It restricts a generic type parameter to types that inherit from a specific base class.
 
     //public class BaseClass
@@ -161,6 +160,18 @@ namespace C__Advanced_Assignment_1
     //    }
     //}
     #endregion
+
+    #region Question 12
+    // by separating them with commas in the where clause.
+    //public class MultiConstraint<T> where T : BaseClass, IMyInterface, new()
+    //{
+    //    public void _Item(T item)
+    //    {
+    //        item.BaseMethod();
+    //        item.AnyFunction();
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -171,6 +182,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
