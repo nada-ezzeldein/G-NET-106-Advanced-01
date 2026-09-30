@@ -206,6 +206,22 @@ namespace C__Advanced_Assignment_1
 
     #endregion
 
+    #region Question 15
+    // It allows a method to return a more derived type than that specified by the generic parameter.
+
+    //public interface ICovariant<out T>
+    //{
+    //    T GetItem();
+    //}
+    //public class CovariantExample : ICovariant<string>
+    //{
+    //    public string GetItem()
+    //    {
+    //        return "Covariance!";
+    //    }
+    //}
+    
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -216,6 +232,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
