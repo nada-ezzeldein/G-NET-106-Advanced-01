@@ -297,7 +297,40 @@ namespace C__Advanced_Assignment_1
     // }
     #endregion
 
-
+    #region Question 20
+    // public class Cache<TKey, TValue>
+    // {
+    //     private Dictionary<TKey, (TValue Value, DateTime Expiration)> cache = new Dictionary<TKey, (TValue, DateTime)>();
+    //     public void Add(TKey key, TValue value, TimeSpan expiration)
+    //     {
+    //         cache[key] = (value, DateTime.Now.Add(expiration));
+    //     }
+    //     public TValue Get(TKey key)
+    //     {
+    //         if (cache.TryGetValue(key, out var entry))
+    //         {
+    //             if (DateTime.Now <= entry.Expiration)
+    //             {
+    //                 return entry.Value;
+    //             }
+    //             else
+    //             {
+    //                 cache.Remove(key);
+    //             }
+    //        }
+    //         throw new KeyNotFoundException("Key not found or expired.");
+    //     }
+    //     public void Remove(TKey key)
+    //     {
+    //         cache.Remove(key);
+    //     }
+    //     public bool Contains(TKey key)
+    //     {
+    //         return cache.ContainsKey(key) && DateTime.Now <= cache[key].Expiration;
+    //     }
+    // }
+    
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -308,6 +341,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
