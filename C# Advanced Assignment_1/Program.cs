@@ -185,6 +185,27 @@ namespace C__Advanced_Assignment_1
     //}
 
     #endregion
+
+    #region Question 14
+    //public class SafeList<T>
+    //{
+    //    private List<T> items = new List<T>();
+    //    public void Add(T item)
+    //    {
+    //        items.Add(item);
+    //    }
+    //    public T Get(int index)
+    //    {
+    //        if (index < 0 || index >= items.Count)
+    //        {
+    //            return default(T);
+    //        }
+    //        return items[index];
+    //    }
+    //}
+
+    #endregion
+
     internal class Program
     {
         static void Main(string[] args)
@@ -195,6 +216,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
