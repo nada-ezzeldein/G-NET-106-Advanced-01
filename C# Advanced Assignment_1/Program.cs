@@ -80,6 +80,21 @@ namespace C__Advanced_Assignment_1
     //}
     #endregion
 
+    #region Question 7
+    // struct constraint restricts a generic type parameter to value types (structs).
+    //public class ValueTypeContainer<T> where T : struct
+    //{
+    //    private List<T> items = new List<T>();
+    //    public void Add(T item)
+    //    {
+    //        items.Add(item);
+    //    }
+    //    public T Get(int index)
+    //    {
+    //        return items[index];
+    //    }
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -90,6 +105,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
