@@ -124,6 +124,26 @@ namespace C__Advanced_Assignment_1
     //    }
     //}
     #endregion
+
+    #region Question 10
+    //What is the interface constraint? Write an example
+    // It restricts a generic type parameter to types that implement a specific interface.
+
+    //public interface IMyInterface
+    //{
+    //    void AnyFunction();
+    //}
+
+    //public class MyContainer<T> where T : IMyInterface
+    //{
+    //    public void ProcessItem(T item)
+    //    {
+    //        item.AnyFunction();
+    //    }
+    //}
+    #endregion
+
+
     internal class Program
     {
         static void Main(string[] args)
@@ -134,6 +154,7 @@ namespace C__Advanced_Assignment_1
             // class that can work with any data type.
             // We use it to provide type safety, code reusability, and performance benefits.
             #endregion
+            
             
             
             
